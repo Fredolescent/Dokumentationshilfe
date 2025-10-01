@@ -1,0 +1,13 @@
+{
+  "nameList": ["Max Mustermann", "Anna Schmidt", "John Doe"],
+  "taetigkeiten": {
+    "Unterricht": ["Vorbereitung", "Durchführung", "Nachbereitung"],
+    "Verwaltung": ["Klassenleitung", "Konferenzen", "Dokumentation"],
+    "Beratung": ["Elterngespräche", "Schülergespräche"]
+  },
+  "ziele": [
+    { "text": "Projektarbeit einführen", "datum": "31.12.2025" },
+    { "text": "Digitale Kompetenzen fördern", "datum": "15.06.2026" },
+    { "text": "Teamarbeit stärken", "datum": "01.03.2026" }
+  ]
+}

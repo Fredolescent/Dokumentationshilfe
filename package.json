@@ -1,0 +1,31 @@
+{
+  "name": "dokumentationshilfe",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development tsx server/index.ts",
+    "build": "vite build",
+    "postbuild": "cp dist/public/index.html dist/public/404.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist/public",
+    "start": "NODE_ENV=production node dist/index.js",
+    "check": "tsc",
+    "db:push": "drizzle-kit push"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.22.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.2",
+    "@vitejs/plugin-react": "^4.2.1",
+    "esbuild": "^0.21.5",
+    "gh-pages": "^6.0.0",
+    "tsc": "^2.0.4",
+    "tsx": "^4.16.2",
+    "typescript": "^5.4.5",
+    "vite": "^5.3.1"
+  }
+}
